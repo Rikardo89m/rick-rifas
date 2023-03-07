@@ -9,9 +9,9 @@ for (let i = 0; i < 500; i++) {
   numbers.push(i)
 }
 
-const boleto = numbers.map((boleto, index) =>
+/*const boleto = numbers.map((boleto, index) =>
   <button key={index}>{boleto}</button>
-);
+);*/
 
 function Boletos() {
   return (

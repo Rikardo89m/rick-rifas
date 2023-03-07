@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 class Lista extends React.Component{
     constructor(props){
@@ -49,30 +48,5 @@ render() {
 }
 
 }
-
-/*
-return ( 
-    <table className="table">
-        <thead>
-            <tr>
-                <th>BOLETO</th>
-                <th>STATUS</th>
-                <th>EXTRAS</th>
-            </tr>
-        </thead>
-        <tbody>
-            {boletos.map(
-               (boleto)=>(
-                 <tr key={boleto.numero_rifa}>
-                    <td>{boleto.numero_rifa}</td>
-                    <td>{boleto.estado}</td>
-                    <td>.</td>
-                 </tr>
-                )
-             )}            
-        </tbody>
-    </table>);
-*/
-
 
 export default Lista
