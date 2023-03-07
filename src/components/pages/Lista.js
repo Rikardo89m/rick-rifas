@@ -39,7 +39,7 @@ render() {
                     boleto.estado == 1
                      ? <button key={boleto.numero_rifa} className={'Boleto' + boleto.estado}>{boleto.numero_rifa}</button>
                     : 
-                    <button key={boleto.numero_rifa} className={'Boleto' + boleto.estado}>APARTADO</button>                
+                    <button key={boleto.numero_rifa} className={'Boleto' + boleto.estado}>APARTADOS</button>                
                 )
             )}
         </div>
