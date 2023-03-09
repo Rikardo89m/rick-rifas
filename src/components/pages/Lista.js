@@ -10,7 +10,7 @@ class Lista extends React.Component{
     }
 
 cargarDatos(){
-    fetch("http://localhost/Rifas/scripts/consulta.php")
+    fetch("http://localhost/rick-rifas/scripts/consulta.php")
     .then((respuesta)=>respuesta.json())
     .then((datosRespuesta)=>{
         console.log(datosRespuesta);
